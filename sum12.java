@@ -1,8 +1,8 @@
-package sum12;
+
 public class sum12 {
         public static void main(String[] args) {
-            int fahremheit = 80;
-            double celsius = (5.0 / 9.0) * (fahremheit - 32);
+            float fahremheit = 80.00f;
+            float celsius = (5.0f / 9.0f) * (fahremheit - 32);
             System.out.println(celsius);
         
     }
